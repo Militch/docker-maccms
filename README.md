@@ -9,7 +9,7 @@ The `MACCMS` docker image
 
 ## How to use this image
 
-```console
+```shell
 $ docker run --name some-name \
 -d registry.cn-hangzhou.aliyuncs.com/esiran/maccms:[some-tag-name]
 ```
