@@ -4,8 +4,8 @@ The `MACCMS` docker image
 
 ## Docker image tags
 
-- `10-php7.4`, `php7.4`, `10`, `latest`
-- `10-php7.2`, `php7.2`
+- `10-php7.4-fpm`, `php7.4-fpm`, `10`, `latest`
+- `10-php7.4-fpm`, `php7.2-fpm`
 
 ## How to use this image
 

@@ -24,6 +24,6 @@ ENTRYPOINT [ "docker-maccms-entrypoint.sh" ]
 
 USER www-data
 RUN set -e; \
-    wget http://cdn.esiran.com/archive/maccms-10.1.tar.gz -qO - | tar -xz;
+    wget http://cdn.esiran.com/archive/maccms-10.1.1.tar.gz -qO - | tar -xz;
 USER root
 CMD ["php-fpm"]
